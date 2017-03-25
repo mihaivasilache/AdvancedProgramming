@@ -1,3 +1,5 @@
+package AdvancedProgramming.Lab4.Sources;
+
 import java.awt.Desktop;
 import java.io.*;
 import java.util.*;
@@ -5,7 +7,7 @@ import java.util.*;
 public class Catalog implements  java.io.Serializable{
     List<AbstractItem> itemsList;
 
-    Catalog() {
+    public Catalog() {
         itemsList = new ArrayList<AbstractItem>();
     }
 

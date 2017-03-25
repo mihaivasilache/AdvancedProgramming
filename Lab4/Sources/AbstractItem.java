@@ -1,3 +1,5 @@
+package AdvancedProgramming.Lab4.Sources;
+
 import java.io.Serializable;
 
 public abstract class AbstractItem implements Serializable{
